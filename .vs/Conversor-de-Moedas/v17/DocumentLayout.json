@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\api_obj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:api_obj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -32,9 +40,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T23:48:45.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "API_Obj.cs",
+              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\API_Obj.cs",
+              "RelativeDocumentMoniker": "API_Obj.cs",
+              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\API_Obj.cs",
+              "RelativeToolTip": "API_Obj.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:11:17.527Z",
               "EditorCaption": ""
             }
           ]
