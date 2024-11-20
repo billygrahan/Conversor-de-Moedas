@@ -24,12 +24,20 @@ public class ValidaEntradas
         else return true;
     }
 
-    public static bool ValidaValor(Double Valor)
+    public static bool ValidaValorPositivo(Double? Valor)
     {
         if (Valor <  0)
         {
             return false;
         }
         else return true ;
+    }
+    public static bool ValidaValorNotNull(Double? Valor)
+    {
+        if (Valor != null)
+        {
+            return false;
+        }
+        else return true;
     }
 }

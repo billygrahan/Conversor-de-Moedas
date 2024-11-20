@@ -9,29 +9,23 @@ namespace Conversor_de_Moedas.Models;
 public class Sistema
 {
     private string Key;
-    private Erros erros = new Erros();
 
     public Sistema()
     {
-        Key = "f7061918278fce76aaafa463";
+        Key = File.ReadAllText("../Conversor-de-Moedas/Utils/YOUR-API-KEY.txt");
     }
 
     private API_Response ResponseConsulta(string MoedaOrigem, string MoedaDestino, double? valor)
     {
-        string URLString = $"https://v6.exchangerate-api.com/v6/{Key}/pair/{MoedaOrigem}/{MoedaDestino}/{valor}";
-
         using (var httpClient = new HttpClient())
         {
             try
             {
-                // Enviar solicitação e aguardar a resposta
+                string strValor = valor.ToString().Replace(',', '.');
+                string URLString = $"https://v6.exchangerate-api.com/v6/{Key}/pair/{MoedaOrigem}/{MoedaDestino}/{strValor}";
                 HttpResponseMessage response = httpClient.GetAsync(URLString).Result;
                 string jsonResponse = response.Content.ReadAsStringAsync().Result;
 
-                // Imprimir o JSON de resposta para verificar o conteúdo
-                Console.WriteLine($"JSON de resposta: {jsonResponse}");
-
-                // Se a resposta for bem-sucedida ou contiver um JSON de erro
                 return JsonConvert.DeserializeObject<API_Response>(jsonResponse);
             }
             catch (Exception)
@@ -39,7 +33,7 @@ public class Sistema
                 return new API_Response
                 {
                     result = "error",
-                    error_type = "Sistema fora do ar"
+                    error_type = "Sem acesso ao sistema"
                 };
             }
         }
@@ -62,45 +56,46 @@ public class Sistema
 
             if (!ValidaEntradas.ValidaTamanhoMoedas(MoedaOrigem, MoedaDestino))
             {
-                Interface.ExibeErro("Caracteres Moedas", erros);
+                Interface.ExibeErro("Caracteres Moedas");
                 continue;
             }
             if (!ValidaEntradas.ValidaMoedasDiferentes(MoedaOrigem, MoedaDestino))
             {
-                Interface.ExibeErro("Moedas Iguais", erros);
+                Interface.ExibeErro("Moedas Iguais");
                 continue;
             }
 
             Double? Valor = Interface.ObterEntradaValor("Valor: ");
 
-            if (Valor == null)
+            if (ValidaEntradas.ValidaValorNotNull(Valor))
             {
-                Interface.ExibeErro("Valor Nulo", erros);
+                Interface.ExibeErro("Valor Nulo");
                 continue;
             }
-            else if(Valor < 0)
+            else if(!ValidaEntradas.ValidaValorPositivo(Valor))
             {
-                Interface.ExibeErro("Valor Menor que Zero", erros);
+                Interface.ExibeErro("Valor Menor que Zero");
                 continue;
             }
 
-            //Console.WriteLine($"{MoedaOrigem},{MoedaDestino},{Valor}");
+            
 
             API_Response resposta = ResponseConsulta(MoedaOrigem, MoedaDestino, Valor);
 
-            if (ValidaConsultas.ValidaConsulta(resposta))
+            if (ValidaConsultas.ValidaConsultaSuccess(resposta))
             {
                 Interface.ExibeConvercao(resposta);
-            }
-            else if (resposta.result == null)
-            {
-                Interface.ExibeErro("Sistema fora do ar", erros);
                 continue;
             }
-            else
+            else if (!ValidaConsultas.ValidaConsultaNotNull(resposta))
             {
-                
-                Interface.ExibeErro(resposta.error_type, erros);
+                Interface.ExibeErro("Sem acesso ao sistema");
+                continue;
+            }
+            else if(ValidaConsultas.ValidaErrorConsulta(resposta))
+            {
+                Interface.ExibeErro(resposta.error_type);
+                continue;
             }
         }
     }
