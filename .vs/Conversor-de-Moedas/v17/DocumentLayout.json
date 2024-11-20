@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\validations\\validaentradas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:validations\\validaentradas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\utils\\erros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:utils\\erros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\utils\\your-api-key.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:utils\\your-api-key.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\models\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:models\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\validations\\validaconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:validations\\validaconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\ui\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:ui\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\models\\api_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:models\\api_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\conversor-de-moedas\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{C2B42103-030C-49FC-81A6-A57B2B199B93}|Conversor-de-Moedas.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 342,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,117 +25,16 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:48:45.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Sistema.cs",
-              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Models\\Sistema.cs",
-              "RelativeDocumentMoniker": "Models\\Sistema.cs",
-              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Models\\Sistema.cs",
-              "RelativeToolTip": "Models\\Sistema.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAIwEoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:50:18.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Erros.cs",
-              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Utils\\Erros.cs",
-              "RelativeDocumentMoniker": "Utils\\Erros.cs",
-              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Utils\\Erros.cs",
-              "RelativeToolTip": "Utils\\Erros.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:59:14.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "YOUR-API-KEY.txt",
-              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Utils\\YOUR-API-KEY.txt",
-              "RelativeDocumentMoniker": "Utils\\YOUR-API-KEY.txt",
-              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Utils\\YOUR-API-KEY.txt",
-              "RelativeToolTip": "Utils\\YOUR-API-KEY.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-11-19T23:27:00.845Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 276,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ValidaEntradas.cs",
-              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Validations\\ValidaEntradas.cs",
-              "RelativeDocumentMoniker": "Validations\\ValidaEntradas.cs",
-              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Validations\\ValidaEntradas.cs",
-              "RelativeToolTip": "Validations\\ValidaEntradas.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:47:45.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "API_Response.cs",
-              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Models\\API_Response.cs",
-              "RelativeDocumentMoniker": "Models\\API_Response.cs",
-              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Models\\API_Response.cs",
-              "RelativeToolTip": "Models\\API_Response.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAxwBgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T05:51:28.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Interface.cs",
-              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\UI\\Interface.cs",
-              "RelativeDocumentMoniker": "UI\\Interface.cs",
-              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\UI\\Interface.cs",
-              "RelativeToolTip": "UI\\Interface.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwBMAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:40:30.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ValidaConsulta.cs",
-              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Validations\\ValidaConsulta.cs",
-              "RelativeDocumentMoniker": "Validations\\ValidaConsulta.cs",
-              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\Validations\\ValidaConsulta.cs",
-              "RelativeToolTip": "Validations\\ValidaConsulta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T17:49:35.166Z",
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\Conversor-de-Moedas\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-11-20T01:47:27.54Z",
               "EditorCaption": ""
             }
           ]
